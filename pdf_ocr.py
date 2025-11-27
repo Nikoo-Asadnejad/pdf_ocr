@@ -56,7 +56,7 @@ if platform.system() == "Windows":
 
 # Get script directory and file paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-PDF_PATH = os.path.join(SCRIPT_DIR, "WebserviceDoc_1403-02-11-15.pdf")
+PDF_PATH = os.path.join(SCRIPT_DIR, "Sample.pdf")
 OUTPUT_TEXT_PATH = os.path.join(SCRIPT_DIR, "extracted_text_clean.txt")
 OUTPUT_HTML_PATH = os.path.join(SCRIPT_DIR, "extracted_text_clean.html")
 
